@@ -1,6 +1,6 @@
 # Repository: Saliency Map Generation using PyTorch
 
-This repository contains code to generate saliency maps using PyTorch, leveraging information from two large, publicly available radiology datasets: the Society for Imaging Informatics in Medicine–American College of Radiology Pneumothorax Segmentation dataset and the Radiological Society of North America Pneumonia Detection Challenge dataset.
+This repository contains code to generate saliency maps using PyTorch, leveraging information from two large, publicly available radiology datasets: the Society for Imaging Informatics in Medicine–American College of Radiology Pneumothorax Segmentation dataset and the Radiological Society of North America Pneumonia Detection Challenge dataset. Each of the steps in generating ten different saliency maps are included in the folders provided. In the future it would make more sense to implement more functions instead of replicating the code across each model and each dataset, but for now the included code is seperated this way.
 
 ## Description
 
