@@ -23,6 +23,8 @@ Saliency maps are invaluable tools in medical image analysis, aiding in the inte
   
 The Inter-Architecture repeatability and Intra-Architecture reproducibility measurements are generated from initializing the models in folder one differently and reproducing the maps for the new models. Afterwards, the SSIM is compared using the same code in Sensitivity Measurement. 
 
+Be aware, there are some maps that were saved at different sizes, so some of the code is reshaping the maps to be the same size before any measurements are taken. 
+
 1. Nishanth Arun, Nathan Gaw, Praveer Singh, Ken Chang, Mehak Aggarwal,
 Bryan Chen, Katharina Hoebel, Sharut Gupta, Jay Patel, Mishka Gidwani,
 Julius Adebayo, Matthew D. Li, and Jayashree Kalpathy-Cramer. Assessing
